@@ -54,7 +54,6 @@ This bundle is an OKF v0.1 mirror of the [Awesome OKF](https://github.com/linyir
 - [Model Context Protocol (MCP)](related-formats-concepts/model-context-protocol-mcp.md) - An open protocol for connecting AI agents to tools and data sources.
 - [AGENTS.md](related-formats-concepts/agents-md.md) - A simple, open convention for giving coding agents project instructions.
 - [Obsidian](related-formats-concepts/obsidian.md) - Markdown vaults with backlinks; a close cousin of the OKF directory-of-notes model.
-- [Obsidian Web Clipper](related-formats-concepts/obsidian-web-clipper.md) - Browser extension that captures web pages as clean Markdown, handy for building a raw-sources collection.
 - [Dataview](related-formats-concepts/dataview.md) - Query language over Markdown frontmatter, useful for building dynamic views from OKF-style structured fields.
 - [Marp](related-formats-concepts/marp.md) - Markdown presentation ecosystem; turns Markdown knowledge files into slide decks.
 

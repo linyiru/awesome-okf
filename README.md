@@ -90,7 +90,6 @@ Community implementations of the LLM-wiki pattern that OKF formalizes. These are
 - [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) - An open protocol for connecting AI agents to tools and data sources.
 - [AGENTS.md](https://agents.md/) - A simple, open convention for giving coding agents project instructions.
 - [Obsidian](https://obsidian.md/) - Markdown vaults with backlinks; a close cousin of the OKF directory-of-notes model.
-- [Obsidian Web Clipper](https://obsidian.md/clipper) - Browser extension that captures web pages as clean Markdown, handy for building a raw-sources collection.
 - [Dataview](https://blacksmithgu.github.io/obsidian-dataview/) - Query language over Markdown frontmatter, useful for building dynamic views from OKF-style structured fields.
 - [Marp](https://marp.app/) - Markdown presentation ecosystem; turns Markdown knowledge files into slide decks.
 
