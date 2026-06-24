@@ -23,12 +23,17 @@ OKF was announced by Google Cloud in June 2026. It formalizes the "LLM-wiki" pat
 
 ## Official Tools & Reference Implementations
 
-- [Reference Agent](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf/src/reference_agent) - Reference implementation for producing and visualizing OKF bundles. Includes an enrichment agent that walks BigQuery datasets and drafts OKF documents, plus a static HTML visualizer that renders a bundle as a self-contained, interactive Cytoscape.js graph with no backend required.
-- [Knowledge Catalog Toolbox examples](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/toolbox/mdcode/demo) - Examples of integrating OKF with Google Cloud's Knowledge Catalog.
+- [Reference Agent](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf/src/reference_agent) - Python implementation (built on Google's Agent Development Kit) that produces and visualizes OKF bundles: it drafts OKF documents from a BigQuery source, enriches them with web-crawled citations, and ships a `viewer/generator.py` that renders the bundle as a self-contained, interactive graph.
+- [Knowledge Catalog Enrichment toolbox](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/toolbox/enrichment) - A ready-to-use agent and customizable harness (TypeScript) to produce, evolve, and maintain metadata in Knowledge Catalog. Includes a server that exposes a Markdown fileset as an MCP server.
+- [Knowledge Catalog mdcode](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/toolbox/mdcode) - Manage metadata as source-code artifacts, with git-style pull/push sync between OKF Markdown and BigQuery / Dataplex / Knowledge Catalog.
 
 ## Sample Bundles
 
-- [Sample OKF bundles](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf/bundles) - Three ready-to-browse bundles built from public datasets, each with an interactive `viz.html`: GA4 e-commerce, Stack Overflow, and Bitcoin / Blockchain.
+Three conformant, ready-to-browse bundles built from public BigQuery datasets, each with a self-contained interactive `viz.html` graph viewer:
+
+- [GA4 e-commerce](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf/bundles/ga4) - Google Analytics 4 e-commerce metadata.
+- [Stack Overflow](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf/bundles/stackoverflow) - Schema graph for the public Q&A dataset.
+- [Bitcoin](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf/bundles/crypto_bitcoin) - On-chain concepts from the public Blockchain dataset.
 
 ## Community Tools
 
