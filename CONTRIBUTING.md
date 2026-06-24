@@ -13,10 +13,10 @@ Thanks for helping make **Awesome OKF** better! Please keep submissions on-topic
 Use this format, with a concise, factual description (not marketing copy):
 
 ```
-- [Name](https://example.com) — One-line description of what it is and why it's useful.
+- [Name](https://example.com) - One-line description of what it is and why it's useful.
 ```
 
-- Use an em dash (`—`) between the link and the description.
+- Use a hyphen surrounded by spaces (` - `) between the link and the description, as required by `awesome-lint`.
 - Start the description with a capital letter and end it with a period.
 - Keep it neutral and specific. Avoid superlatives like "the best".
 
