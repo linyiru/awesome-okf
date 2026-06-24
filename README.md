@@ -13,6 +13,7 @@ OKF was announced by Google Cloud in June 2026. It formalizes the "LLM-wiki" pat
 - [Community Tools](#community-tools)
 - [Articles & Guides](#articles--guides)
 - [Background & Origins](#background--origins)
+- [Built on the LLM-Wiki Pattern](#built-on-the-llm-wiki-pattern)
 - [Related Formats & Concepts](#related-formats--concepts)
 - [Community](#community)
 
@@ -58,6 +59,7 @@ Three conformant, ready-to-browse bundles built from public BigQuery datasets, e
 ## Articles & Guides
 
 - [How the Open Knowledge Format can improve data sharing](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing) - The official Google Cloud announcement (Sam McVeety & Amir Hormati). Start here.
+- [Introducing the Google Cloud Knowledge Catalog](https://cloud.google.com/blog/products/data-analytics/introducing-the-google-cloud-knowledge-catalog) - The companion product OKF was designed alongside; Knowledge Catalog produces and consumes OKF as its open, portable format.
 - [OKF, by Marie Haynes](https://www.mariehaynes.com/okf/) - Why OKF matters for SEO/AI: the shift from "being found by search engines" to "making knowledge accessible so agents can act on it."
 - [Open Knowledge Format (OKF): Google's New Markdown Format for AI Agents](https://suganthan.com/blog/open-knowledge-format/) - Practical explainer by Suganthan Mohanadasan.
 - [Google shipped an open format (OKF). My site already spoke it.](https://suganthan.com/notes/google-shipped-okf/) - Hands-on notes from building one of the first community bundles.
@@ -67,7 +69,18 @@ Three conformant, ready-to-browse bundles built from public BigQuery datasets, e
 
 ## Background & Origins
 
-- [How To Build an LLM Wiki, by Andrej Karpathy](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) - The "LLM-wiki" pattern that OKF formalizes.
+- [LLM Wiki, by Andrej Karpathy](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) - The "LLM-wiki" pattern that OKF formalizes. OKF's reserved `index.md` and `log.md` files and its raw-sources/wiki/schema layering trace directly back to this gist.
+- [As We May Think, by Vannevar Bush (1945)](https://en.wikipedia.org/wiki/As_We_May_Think) - The Memex essay Karpathy cites as the deeper ancestor: a personal, curated knowledge store where the links between documents matter as much as the documents themselves.
+
+## Built on the LLM-Wiki Pattern
+
+Community implementations of the LLM-wiki pattern that OKF formalizes. These are not OKF-native, but they share its "knowledge as interlinked Markdown that an agent maintains" philosophy.
+
+- [AutoSci](https://github.com/skyllwt/AutoSci) - Full-lifecycle AI research platform built on the LLM-wiki vision, powered by Claude Code, with 30+ slash commands for ingesting and synthesizing papers.
+- [karpathy-llm-wiki](https://github.com/Astro-Han/karpathy-llm-wiki) - Agent Skills-compatible LLM wiki for Claude Code, Cursor, and Codex that ingests sources, compiles wiki pages, answers with citations, and lints for consistency.
+- [llmwiki](https://github.com/lucasastorian/llmwiki) - Open-source implementation: upload documents, connect Claude via MCP, and have the agent write and maintain the wiki.
+- [Synto](https://github.com/kytmanov/synto) - Local-first wiki builder using a two-tier Ollama pipeline (small model extracts concepts, larger model writes cross-linked articles) on consumer hardware.
+- [llm_wiki](https://github.com/nashsu/llm_wiki) - Cross-platform desktop app that turns documents into an organized, interlinked knowledge base automatically.
 
 ## Related Formats & Concepts
 
@@ -75,6 +88,9 @@ Three conformant, ready-to-browse bundles built from public BigQuery datasets, e
 - [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) - An open protocol for connecting AI agents to tools and data sources.
 - [AGENTS.md](https://agents.md/) - A simple, open convention for giving coding agents project instructions.
 - [Obsidian](https://obsidian.md/) - Markdown vaults with backlinks; a close cousin of the OKF directory-of-notes model.
+- [Obsidian Web Clipper](https://obsidian.md/clipper) - Browser extension that captures web pages as clean Markdown, handy for building a raw-sources collection.
+- [Dataview](https://blacksmithgu.github.io/obsidian-dataview/) - Query language over Markdown frontmatter, useful for building dynamic views from OKF-style structured fields.
+- [Marp](https://marp.app/) - Markdown presentation ecosystem; turns Markdown knowledge files into slide decks.
 
 ## Community
 
