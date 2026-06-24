@@ -6,6 +6,7 @@ OKF was announced by Google Cloud in June 2026. It formalizes the "LLM-wiki" pat
 
 ## Contents
 
+- [OKF at a Glance](#okf-at-a-glance)
 - [Specification](#specification)
 - [Official Tools & Reference Implementations](#official-tools--reference-implementations)
 - [Sample Bundles](#sample-bundles)
@@ -14,6 +15,21 @@ OKF was announced by Google Cloud in June 2026. It formalizes the "LLM-wiki" pat
 - [Background & Origins](#background--origins)
 - [Related Formats & Concepts](#related-formats--concepts)
 - [Community](#community)
+
+## OKF at a Glance
+
+A bundle is a directory tree of Markdown files, and the directory structure is independent of the domain. The essentials from the v0.1 spec:
+
+| Aspect             | Rule                                                                                                                         |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
+| Concept            | One Markdown file: YAML frontmatter plus a free-form Markdown body.                                                          |
+| Required field     | `type` — a non-empty string identifying the kind of concept.                                                                 |
+| Recommended fields | `title`, `description`, `resource` (a URI for the underlying asset), `tags`, `timestamp` (ISO 8601).                         |
+| Reserved filenames | `index.md` (directory listing for progressive disclosure) and `log.md` (update history); every other `.md` is a concept.     |
+| Links              | A link from concept A to B asserts a relationship; use bundle-relative paths (starting with `/`) or ordinary relative paths. |
+| Conformance        | Every non-reserved `.md` file has parseable frontmatter with a non-empty `type`.                                             |
+| Consumer tolerance | Consumers must tolerate missing optional fields, unknown `type` values, broken links, and a missing `index.md`.              |
+| Extensions         | Producers may add custom keys; consumers must preserve unknown fields.                                                       |
 
 ## Specification
 
