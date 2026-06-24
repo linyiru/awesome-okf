@@ -1,6 +1,6 @@
 # Awesome OKF [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of resources for the **Open Knowledge Format (OKF)** — an open, vendor-neutral specification for representing knowledge as a directory of Markdown files with YAML frontmatter, so AI agents (and humans) can read it without custom integrations.
+> A curated list of resources for the **Open Knowledge Format (OKF)** — Google's open, vendor-neutral spec for representing knowledge as Markdown files with YAML frontmatter that AI agents can read without custom integrations. This list practices what it catalogs: it is itself published as a conformant OKF bundle (see below).
 
 OKF was announced by Google Cloud in June 2026. It formalizes the "LLM-wiki" pattern into a portable, interoperable format: knowledge lives as plain Markdown files with structured frontmatter (`type`, `title`, `description`, `resource`, `tags`, `timestamp`) and cross-links that form a knowledge graph. No SDK, no runtime, no lock-in — just files you can ship in a tarball, host in Git, or mount on a filesystem.
 
