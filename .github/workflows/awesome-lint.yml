@@ -15,3 +15,15 @@ jobs:
         with:
           node-version: lts/*
       - run: npx awesome-lint
+
+  okf-bundle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+      - name: Regenerate bundle and validate OKF conformance
+        run: node scripts/build-okf-bundle.mjs
+      - name: Fail if bundle is out of sync with README
+        run: git diff --exit-code bundle/ || (echo "::error::bundle/ is out of date. Run 'node scripts/build-okf-bundle.mjs' and commit." && exit 1)

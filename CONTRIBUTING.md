@@ -6,7 +6,8 @@ Thanks for helping make **Awesome OKF** better! Please keep submissions on-topic
 
 1. Fork this repository.
 2. Add your link to the most relevant section in `README.md`, keeping entries in a sensible order.
-3. Open a pull request with a short note explaining why the resource belongs here.
+3. Regenerate the OKF bundle so it stays in sync: `node scripts/build-okf-bundle.mjs`, then commit the changes under `bundle/`. CI fails if the bundle is out of date.
+4. Open a pull request with a short note explaining why the resource belongs here.
 
 ## Entry format
 

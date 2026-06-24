@@ -32,6 +32,8 @@ A bundle is a directory tree of Markdown files, and the directory structure is i
 | Consumer tolerance | Consumers must tolerate missing optional fields, unknown `type` values, broken links, and a missing `index.md`.              |
 | Extensions         | Producers may add custom keys; consumers must preserve unknown fields.                                                       |
 
+> This list is also published as a conformant OKF v0.1 bundle under [`bundle/`](bundle), generated from this README by [`scripts/build-okf-bundle.mjs`](scripts/build-okf-bundle.mjs).
+
 ## Specification
 
 - [OKF v0.1 Specification (SPEC.md)](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md) - The one-page, universal, vendor-neutral spec, including conformance criteria and reserved filenames.
