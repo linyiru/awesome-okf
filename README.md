@@ -56,8 +56,8 @@ Three conformant, ready-to-browse bundles built from public BigQuery datasets, e
 
 ## Community Tools
 
-- [OKF Bundle Generator](https://suganthan.com/okf-generator/) - Free web tool by Suganthan Mohanadasan: paste a URL or sitemap, it crawls up to 100 pages, converts each into a clean OKF concept, links them into a graph, and outputs a downloadable bundle. A companion WordPress plugin generates a bundle in one click and keeps it in sync on every publish.
 - [BundleDex](https://bundledex.net) - Directory of 227+ OKF bundles with search, dedup, categorization, and a JSON API for agents.
+- [OKF Bundle Generator](https://suganthan.com/okf-generator/) - Free web tool by Suganthan Mohanadasan: paste a URL or sitemap, it crawls up to 100 pages, converts each into a clean OKF concept, links them into a graph, and outputs a downloadable bundle. A companion WordPress plugin generates a bundle in one click and keeps it in sync on every publish.
 
 ## Articles & Guides
 
