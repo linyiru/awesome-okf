@@ -57,6 +57,7 @@ Three conformant, ready-to-browse bundles built from public BigQuery datasets, e
 ## Community Tools
 
 - [OKF Bundle Generator](https://suganthan.com/okf-generator/) - Free web tool by Suganthan Mohanadasan: paste a URL or sitemap, it crawls up to 100 pages, converts each into a clean OKF concept, links them into a graph, and outputs a downloadable bundle. A companion WordPress plugin generates a bundle in one click and keeps it in sync on every publish.
+- [samemind](https://github.com/alexgrebeshok-coder/samemind) - Personal memory for AI coding agents, stored as an OKF bundle: identity, an append-only work-ledger and a kanban board in plain Markdown. `export`/`import` speak the OKF v0.1 wire format directly; zero-dep CLI plus an MCP server, with a 12-engine instruction-file installer.
 
 ## Articles & Guides
 
