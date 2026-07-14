@@ -56,6 +56,7 @@ Three conformant, ready-to-browse bundles built from public BigQuery datasets, e
 
 ## Community Tools
 
+- [okft](https://github.com/PoorvaJ-WW/okft) - Linter and MCP server for OKF bundles (`pip install okft`): `okft lint` validates spec conformance and hygiene (broken links, orphans, timestamps) with CI-friendly exit codes and JSON output; `okft serve` exposes a bundle to any MCP-capable agent as deterministic navigation tools. Apache-2.0.
 - [OKF Bundle Generator](https://suganthan.com/okf-generator/) - Free web tool by Suganthan Mohanadasan: paste a URL or sitemap, it crawls up to 100 pages, converts each into a clean OKF concept, links them into a graph, and outputs a downloadable bundle. A companion WordPress plugin generates a bundle in one click and keeps it in sync on every publish.
 
 ## Articles & Guides
