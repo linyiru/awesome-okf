@@ -57,6 +57,8 @@ Three conformant, ready-to-browse bundles built from public BigQuery datasets, e
 ## Community Tools
 
 - [OKF Bundle Generator](https://suganthan.com/okf-generator/) - Free web tool by Suganthan Mohanadasan: paste a URL or sitemap, it crawls up to 100 pages, converts each into a clean OKF concept, links them into a graph, and outputs a downloadable bundle. A companion WordPress plugin generates a bundle in one click and keeps it in sync on every publish.
+- [SchemaCrawler Scribe](https://www.schemacrawler.com/scribe.html) - Generates structured database documentation directly from live schema metadata in Google Open Knowledge Format (OKF). See [AI-Ready Database Docs You Can Keep in Git](https://dev.to/sualeh/schemacrawler-scribe-google-okf-ai-ready-database-docs-you-can-keep-in-git-2off) for a quick overview.
+
 
 ## Articles & Guides
 
