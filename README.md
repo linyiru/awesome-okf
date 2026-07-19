@@ -56,6 +56,7 @@ Three conformant, ready-to-browse bundles built from public BigQuery datasets, e
 
 ## Community Tools
 
+- [BundleDex](https://bundledex.net) - Directory of 227+ OKF bundles with search, dedup, categorization, and a JSON API for agents.
 - [OKF Bundle Generator](https://suganthan.com/okf-generator/) - Free web tool by Suganthan Mohanadasan: paste a URL or sitemap, it crawls up to 100 pages, converts each into a clean OKF concept, links them into a graph, and outputs a downloadable bundle. A companion WordPress plugin generates a bundle in one click and keeps it in sync on every publish.
 - [knowledge-mcp](https://github.com/chirag127/knowledge-mcp) - Public MCP server that exposes an OKF bundle over `search`, `read`, `list`, and `related` tools; deployed on Cloudflare Workers with no auth. Points at any OKF v0.1 bundle so any MCP client (Claude Code, Cursor, etc.) can query it as a knowledge graph.
 
