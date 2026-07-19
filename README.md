@@ -57,7 +57,10 @@ Three conformant, ready-to-browse bundles built from public BigQuery datasets, e
 ## Community Tools
 
 - [okft](https://github.com/PoorvaJ-WW/okft) - Linter and MCP server for OKF bundles (`pip install okft`): `okft lint` validates spec conformance and hygiene (broken links, orphans, timestamps) with CI-friendly exit codes and JSON output; `okft serve` exposes a bundle to any MCP-capable agent as deterministic navigation tools. Apache-2.0.
+- [BundleDex](https://bundledex.net) - Directory of 227+ OKF bundles with search, dedup, categorization, and a JSON API for agents.
 - [OKF Bundle Generator](https://suganthan.com/okf-generator/) - Free web tool by Suganthan Mohanadasan: paste a URL or sitemap, it crawls up to 100 pages, converts each into a clean OKF concept, links them into a graph, and outputs a downloadable bundle. A companion WordPress plugin generates a bundle in one click and keeps it in sync on every publish.
+- [samemind](https://github.com/alexgrebeshok-coder/samemind) - Personal memory for AI coding agents, stored as an OKF bundle: identity, an append-only work-ledger and a kanban board in plain Markdown. `export`/`import` speak the OKF v0.1 wire format directly; zero-dep CLI plus an MCP server, with a 12-engine instruction-file installer.
+- [knowledge-mcp](https://github.com/chirag127/knowledge-mcp) - Public MCP server that exposes an OKF bundle over `search`, `read`, `list`, and `related` tools; deployed on Cloudflare Workers with no auth. Points at any OKF v0.1 bundle so any MCP client (Claude Code, Cursor, etc.) can query it as a knowledge graph.
 
 ## Articles & Guides
 
