@@ -63,6 +63,7 @@ Three conformant, ready-to-browse bundles built from public BigQuery datasets, e
 
 - [samemind](https://github.com/alexgrebeshok-coder/samemind) - Personal memory for AI coding agents, stored as an OKF bundle: identity, an append-only work-ledger and a kanban board in plain Markdown. `export`/`import` speak the OKF v0.1 wire format directly; zero-dep CLI plus an MCP server, with a 12-engine instruction-file installer.
 - [knowledge-mcp](https://github.com/chirag127/knowledge-mcp) - Public MCP server that exposes an OKF bundle over `search`, `read`, `list`, and `related` tools; deployed on Cloudflare Workers with no auth. Points at any OKF v0.1 bundle so any MCP client (Claude Code, Cursor, etc.) can query it as a knowledge graph.
+- [okf-gem](https://github.com/serradura/okf-gem) - Harness that covers a bundle's whole life: an agent skill authors and curates concepts from your code and docs, a CLI and library check the result (`validate` for v0.1 conformance, `lint` for curation quality as a separate non-blocking report, ranked `search` for retrieval), and `okf server` / `okf render` publish it as an interactive graph, live or as one self-contained HTML file. Bundles can be registered under `@slug` names and served together from one hub, and the server mounts inside a Rails app. Runs entirely on your machine with no account or telemetry. Install with `gem install okf` or run the Docker image; [live demo](https://demo.okfgem.com). Apache-2.0.
 
 ## Articles & Guides
 
