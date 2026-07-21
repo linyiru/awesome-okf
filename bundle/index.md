@@ -22,9 +22,13 @@ This bundle is an OKF v0.1 mirror of the [Awesome OKF](https://github.com/linyir
 
 ## Community Tools
 
+- [okft](community-tools/okft.md) - Linter and MCP server for OKF bundles (`pip install okft`): `okft lint` validates spec conformance and hygiene (broken links, orphans, timestamps) with CI-friendly exit codes and JSON output; `okft serve` exposes a bundle to any MCP-capable agent as deterministic navigation tools. Apache-2.0.
 - [BundleDex](community-tools/bundledex.md) - Directory of 227+ OKF bundles with search, dedup, categorization, and a JSON API for agents.
 - [OKF Bundle Generator](community-tools/okf-bundle-generator.md) - Free web tool by Suganthan Mohanadasan: paste a URL or sitemap, it crawls up to 100 pages, converts each into a clean OKF concept, links them into a graph, and outputs a downloadable bundle. A companion WordPress plugin generates a bundle in one click and keeps it in sync on every publish.
+- [SchemaCrawler Scribe](community-tools/schemacrawler-scribe.md) - Generates structured database documentation directly from live schema metadata in Google Open Knowledge Format (OKF). See [AI-Ready Database Docs You Can Keep in Git](https://dev.to/sualeh/schemacrawler-scribe-google-okf-ai-ready-database-docs-you-can-keep-in-git-2off) for a quick overview.
+- [samemind](community-tools/samemind.md) - Personal memory for AI coding agents, stored as an OKF bundle: identity, an append-only work-ledger and a kanban board in plain Markdown. `export`/`import` speak the OKF v0.1 wire format directly; zero-dep CLI plus an MCP server, with a 12-engine instruction-file installer.
 - [knowledge-mcp](community-tools/knowledge-mcp.md) - Public MCP server that exposes an OKF bundle over `search`, `read`, `list`, and `related` tools; deployed on Cloudflare Workers with no auth. Points at any OKF v0.1 bundle so any MCP client (Claude Code, Cursor, etc.) can query it as a knowledge graph.
+- [okf-gem](community-tools/okf-gem.md) - Harness that covers a bundle's whole life: an agent skill authors and curates concepts from your code and docs, a CLI and library check the result (`validate` for v0.1 conformance, `lint` for curation quality as a separate non-blocking report, ranked `search` for retrieval), and `okf server` / `okf render` publish it as an interactive graph, live or as one self-contained HTML file. Bundles can be registered under `@slug` names and served together from one hub, and the server mounts inside a Rails app. Runs entirely on your machine with no account or telemetry. Install with `gem install okf` or run the Docker image; [live demo](https://demo.okfgem.com). Apache-2.0.
 
 ## Articles & Guides
 

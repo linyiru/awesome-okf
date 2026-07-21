@@ -13,10 +13,3 @@ Free web tool by Suganthan Mohanadasan: paste a URL or sitemap, it crawls up to 
 
 - Resource: <https://suganthan.com/okf-generator/>
 - See also: [bundle index](../index.md)
-
-# SchemaCrawler Scribe
-
-SchemaCrawler Scribe generates structured database documentation directly from live schema metadata in Google Open Knowledge Format (OKF). See [AI-Ready Database Docs You Can Keep in Git](https://dev.to/sualeh/schemacrawler-scribe-google-okf-ai-ready-database-docs-you-can-keep-in-git-2off) for a quick overview.
-
-- Resource: [SchemaCrawler Scribe](https://www.schemacrawler.com/scribe.html)
-- See also: [bundle index](../index.md)
