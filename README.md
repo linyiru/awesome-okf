@@ -72,6 +72,7 @@ Four conformant, ready-to-browse bundles from the home repository, each with a s
 - [EchoesVault](https://github.com/psinetron/echoes-vault-opencode) - Persistent-memory plugin for OpenCode that stores its vault as an OKF-compliant bundle — one that doubles as a valid Obsidian vault. MIT.
 - [claude-mega-brain](https://github.com/guhcostan/claude-mega-brain) - Claude Code plugin that injects an OKF knowledge base at session start, with an agentic benchmark against Obsidian-plus-MCP setups. MIT.
 - [OWOX Model Canvas](https://github.com/OWOX/models) - Visual, Miro-like editor for data models that reads and writes OKF as its native format; the repo also publishes real bundles. Apache-2.0.
+- [Keepsake](https://github.com/roee-fs/keepsake) - Cloud-native Context Engine implementing the OKF format. Highly available memory solution for fleets of agents cooperating and learning together.
 
 ## Articles & Guides
 
