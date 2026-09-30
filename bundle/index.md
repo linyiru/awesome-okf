@@ -38,6 +38,7 @@ This bundle is an OKF v0.2 mirror of the [Awesome OKF](https://github.com/linyir
 - [EchoesVault](community-tools/echoesvault.md) - Persistent-memory plugin for OpenCode that stores its vault as an OKF-compliant bundle — one that doubles as a valid Obsidian vault. MIT.
 - [claude-mega-brain](community-tools/claude-mega-brain.md) - Claude Code plugin that injects an OKF knowledge base at session start, with an agentic benchmark against Obsidian-plus-MCP setups. MIT.
 - [OWOX Model Canvas](community-tools/owox-model-canvas.md) - Visual, Miro-like editor for data models that reads and writes OKF as its native format; the repo also publishes real bundles. Apache-2.0.
+- [JidoSeal](community-tools/jidoseal.md) - Local scanner that lists, per file, the frontmatter fields an OKF v0.2 folder is missing for three vendor-defined tiers: Bronze is OKF's required `type`; Silver and Gold add vendor-chosen fields meant to evidence selected ISO 9001 §7.5.2 and ISO 30401 clauses, and are not ISO certification. Pick a folder and scan it with the `jidoseal` CLI or from MCP clients such as Claude Code, Cursor or a local-model client. MCP server Apache-2.0, scan engine proprietary; no network use during a scan is a vendor claim, not independently audited; it writes `.jidoseal/` in the scanned folder. Not affiliated with or endorsed by Google or ISO.
 
 ## Articles & Guides
 
