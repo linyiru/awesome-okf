@@ -38,6 +38,7 @@ This bundle is an OKF v0.2 mirror of the [Awesome OKF](https://github.com/linyir
 - [EchoesVault](community-tools/echoesvault.md) - Persistent-memory plugin for OpenCode that stores its vault as an OKF-compliant bundle — one that doubles as a valid Obsidian vault. MIT.
 - [claude-mega-brain](community-tools/claude-mega-brain.md) - Claude Code plugin that injects an OKF knowledge base at session start, with an agentic benchmark against Obsidian-plus-MCP setups. MIT.
 - [OWOX Model Canvas](community-tools/owox-model-canvas.md) - Visual, Miro-like editor for data models that reads and writes OKF as its native format; the repo also publishes real bundles. Apache-2.0.
+- [binder](community-tools/binder.md) - Go CLI, library, and MCP server (`brew install ghchinoy/tap/binder`) that converts Markdown corpora into OKF v0.2 bundles with wikilink rewriting, lossless frontmatter round-trip, v0.2 conformance validation, trust-tier review gates, source linting, and Spanner SQL/PGQ property-graph projection. Apache-2.0.
 
 ## Articles & Guides
 
